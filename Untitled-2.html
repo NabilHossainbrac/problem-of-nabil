@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+
+</head>
+<body>
+
+    <input type="text" name="name" id="name"/> 
+    <button oneclick="greet()">
+        Greet
+    </button>
+    <div class="greet">
+
+    </div>
+</body>
+<script type="text/javascript">
+    // var x = 5;
+    // var y = 31;
+    // // z = x < y ? "yes":"no"
+    //  y %= x;
+    // document.getElementById('res').innerHTML= y;
+    var var1 = document.getElementsByClassName('greet');
+    var var2 = document.getElementById('name')
+    function greet(){
+        
+        var string ="Hello "+  var2.value;;
+        var1.innerHTML = string;
+    }    
+</script>
+</html>
